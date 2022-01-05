@@ -3,8 +3,8 @@ import java.util.List;
 class Chislo {
 
     public static String arabToRoman(int number) {
-        if ((number <= 0) || (number > 4000)) {
-            throw new IllegalArgumentException(number + " is not in range (0,4000]");
+        if ((number <= 0) || (number > 100)) {
+            throw new IllegalArgumentException(number + " is not in range (0,100]");
         }
 
         List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
