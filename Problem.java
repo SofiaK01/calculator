@@ -1,9 +1,9 @@
 class Problem {
 
-    Boolean FirstIsArab=false;
-    Boolean FirstIsRoman=false;
-    Boolean SecondIsArab=false;
-    Boolean SecondIsRoman=false;
+    Boolean FirstIsArab = false;
+    Boolean FirstIsRoman = false;
+    Boolean SecondIsArab = false;
+    Boolean SecondIsRoman = false;
 
 
     Chislo ch = new Chislo();
