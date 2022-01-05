@@ -26,10 +26,9 @@ class Problem {
 
 
 
-        if (!FirstIsArab.equals(SecondIsArab)) throw new RuntimeException();
-        if (!FirstIsRoman.equals(SecondIsRoman)) throw new RuntimeException();
         if ((FirstIsArab) && (FirstIsArab == SecondIsArab)) arabProblem(parts[0],parts[1],parts[2]);
-        if ((FirstIsRoman) &&  (FirstIsRoman == SecondIsRoman)) romeProblem(parts[0],parts[1],parts[2]);
+        else if ((FirstIsRoman) &&  (FirstIsRoman == SecondIsRoman)) romeProblem(parts[0],parts[1],parts[2]);
+        else throw new RuntimeException();
 
     }
     int answer (int f, int s, String o) {
