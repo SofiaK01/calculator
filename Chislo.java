@@ -49,3 +49,4 @@ class Chislo {
         return result;
     }
 }
+
