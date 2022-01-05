@@ -1,0 +1,11 @@
+class Main {
+
+    public static void main(String[] args) {
+        Scanner some_name = new Scanner(System.in); // Создаем объект с именем some_name
+        String s = some_name.nextLine();
+
+        Problem p = new Problem();
+        p.kindOfProblem(s);
+        
+    }
+}
